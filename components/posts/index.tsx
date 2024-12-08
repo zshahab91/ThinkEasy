@@ -91,7 +91,7 @@ const PostList = () => {
             <SearchBox searchTerm={searchTerm} onSearch={(val) => filteredData(val)} />
 
             <div className="overflow-x-auto my-8 mx-2">
-                <button className="shadow my-8 bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button" onClick={() => openModalPost()}>
+                <button className="shadow my-8 bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button" onClick={() => openModalPost()}>
                     Add Post
                 </button>
                 <ModalPost />

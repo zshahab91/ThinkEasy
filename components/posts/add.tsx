@@ -15,6 +15,7 @@ const ModalPost = () => {
     const [currentPost, setCurrentPost] = useState<IAddPost>(initialPost);
 
     const resetState = () => {
+        setCurrentPost(initialPost);
         dispatch(setShowModalPostState());
     }
     const savePost = async () => {
